@@ -334,10 +334,12 @@ The implementation it self is very simple, but needs to handle the DefaultValues
 
 Currently it is easy as brush your teeth using NuGet:
 
-For XAF-Only Attributes:
+- For XAF-Only Attributes:
+
 `Install-Package Para.FluentModelBuilder.XAF`
 
-For the ConditionalAppearance part use:
+- For the ConditionalAppearance part use:
+
 `Install-Package Para.FluentModelBuilder.ConditionalAppearance`
 
 ##Questions?##
@@ -346,8 +348,8 @@ Currently this is very alpha stuff, but it works brilliant for this easy example
 
 Feel free to contact, fork or ask me for questions on twitter, facebook or Email:
 
-Twitter: https://twitter.com/biohaz999
-FB: https://www.facebook.com/manuel.grundner
-E-Mail: m.grundner at paragraph-software dot at
+- Twitter: https://twitter.com/biohaz999
+- FB: https://www.facebook.com/manuel.grundner
+- E-Mail: m.grundner at paragraph-software dot at
 
 
