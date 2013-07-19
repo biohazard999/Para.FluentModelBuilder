@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Para.FluentModelBuilder.XAF", "FluentModelBuilder\Para.FluentModelBuilder.XAF.csproj", "{EE0CEFB7-2B83-4D7A-9657-DFFBB6556005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Para.FluentModelBuilder.Tests", "FluentModelBuilder.Tests\Para.FluentModelBuilder.Tests.csproj", "{3EA0DA06-F5A5-43C8-AD18-76E1C106A1D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0366A299-3296-4646-AC65-E2FF5D22F7F9}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Para.FluentModelBuilder.ConditionalAppearance", "FluentModelBuilder.ConditionalAppearance\Para.FluentModelBuilder.ConditionalAppearance.csproj", "{18BF649E-4482-4EB2-9746-FDEA9A1940C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NugetPackageSupport", ".NugetPackageSupport", "{50870EC7-F09D-486A-A674-866D3C46F981}"
+	ProjectSection(SolutionItems) = preProject
+		NugetPackageSupport\NuGetterPackages.xml = NugetPackageSupport\NuGetterPackages.xml
+		NugetPackageSupport\Para.FluentModelBuilder.ConditionalAppearance.nuspec = NugetPackageSupport\Para.FluentModelBuilder.ConditionalAppearance.nuspec
+		NugetPackageSupport\Para.FluentModelBuilder.XAF.nuspec = NugetPackageSupport\Para.FluentModelBuilder.XAF.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".GitHub", ".GitHub", "{D7E1D7ED-FB09-4689-8B12-556F0362AAEE}"
+	ProjectSection(SolutionItems) = preProject
+		Licence.md = Licence.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://paratfs:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FluentModelBuilder.ConditionalAppearance\\Para.FluentModelBuilder.ConditionalAppearance.csproj
+		SccProjectName1 = FluentModelBuilder.ConditionalAppearance
+		SccLocalPath1 = FluentModelBuilder.ConditionalAppearance
+		SccProjectUniqueName2 = FluentModelBuilder.Tests\\Para.FluentModelBuilder.Tests.csproj
+		SccProjectName2 = FluentModelBuilder.Tests
+		SccLocalPath2 = FluentModelBuilder.Tests
+		SccProjectUniqueName3 = FluentModelBuilder\\Para.FluentModelBuilder.XAF.csproj
+		SccProjectName3 = FluentModelBuilder
+		SccLocalPath3 = FluentModelBuilder
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE0CEFB7-2B83-4D7A-9657-DFFBB6556005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0CEFB7-2B83-4D7A-9657-DFFBB6556005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0CEFB7-2B83-4D7A-9657-DFFBB6556005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0CEFB7-2B83-4D7A-9657-DFFBB6556005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA0DA06-F5A5-43C8-AD18-76E1C106A1D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA0DA06-F5A5-43C8-AD18-76E1C106A1D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA0DA06-F5A5-43C8-AD18-76E1C106A1D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA0DA06-F5A5-43C8-AD18-76E1C106A1D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18BF649E-4482-4EB2-9746-FDEA9A1940C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BF649E-4482-4EB2-9746-FDEA9A1940C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BF649E-4482-4EB2-9746-FDEA9A1940C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BF649E-4482-4EB2-9746-FDEA9A1940C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

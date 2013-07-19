@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<NuGetterPackages>
+  <NuGetterPackage name="Para.FluentModelBuilder">
+    <NuSpecFilePath>$/paraOfficeSuite/KW29/src/FluentModelBuilder/NugetPackageSupport/Para.FluentModelBuilder.XAF.nuspec</NuSpecFilePath>
+  </NuGetterPackage>
+  <NuGetterPackage name="Para.FluentModelBuilder.ConditionalAppearance">
+    <NuSpecFilePath>$/paraOfficeSuite/KW29/src/FluentModelBuilder/NugetPackageSupport/Para.FluentModelBuilder.ConditionalAppearance.nuspec</NuSpecFilePath>
+  </NuGetterPackage>
+</NuGetterPackages>
