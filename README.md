@@ -132,6 +132,9 @@ There are 2 possible solutions:
 
 Use `ModelBuilder<T>.WithAttribute(Attribute attribute)` or `ModelBuilder<T>.WithAttribute<TAttribute>(Action<TAttribute> attributeOptions)`.
 
+	For(m => m.StringProperty)
+		.WithAttribute(new YourProperty("whatever"));
+
 Or:
 
 Write a new Extention-Method that adds syntactic sugar to the whole thing (`ConditionalAppearance` is realized with this):
@@ -329,13 +332,13 @@ The implementation it self is very simple, but needs to handle the DefaultValues
 
 ##Where do i get it?##
 
-Currently it is easy as brush your teeth:
+Currently it is easy as brush your teeth using NuGet:
 
 For XAF-Only Attributes:
-	PM> Install-Package Para.FluentModelBuilder.XAF
+`Install-Package Para.FluentModelBuilder.XAF`
 
 For the ConditionalAppearance part use:
-	PM> Install-Package Para.FluentModelBuilder.ConditionalAppearance
+`Install-Package Para.FluentModelBuilder.ConditionalAppearance`
 
 ##Questions?##
 
